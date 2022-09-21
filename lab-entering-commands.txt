@@ -16,7 +16,30 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+Applications
+BattleScribe
+Broken Steel
+Creative Cloud Files
+Creative Cloud Files massauxjulien@gmail.com 7ecd59408c373be32a8b894dad0efde792b5f28b6f2968dcb422c3a878684185
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+New Unity Project
+Pictures
+Public
+Sites
+a.txt
+afrobeat Project
+derby.log
+iCloud Drive (Archive)
+package-lock.json
+presets
+sounds
+web-dev-starter
 
 
 ==========
@@ -26,20 +49,24 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Desktop/    Documents/  Downloads/
+Desktop/    Documents/  Downloads/ Dropbox/
+
+displays above. I assume its prompting me to select which folder to list.
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
+Desktop/   Documents/ Downloads/ Dropbox/
+
+no apparent change.
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+ls: D: No such file or directory
 
 ==========
 3.  Type:
@@ -48,6 +75,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+-rw-r--r--@  1 Yomaka  staff   13883538 Jan  7  2022 ARPODYSSEY_PatchBook.pdf
+drwxr-xr-x@  7 Yomaka  staff        224 May  8 23:40 Adobe
 
 
 
@@ -59,7 +88,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+.
+..
 
 ==========
 5.  Type:
@@ -69,7 +99,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+ls -a documents
 
 ==========
 6.  Type:
@@ -79,7 +109,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+ls -a documents
 
 ==========
 7.  Type:
@@ -89,7 +119,7 @@ $ ls /b<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+ls /bin/
 
 ==========
 8.  Type:
@@ -99,37 +129,37 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+up
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+-l -t
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+tab
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+documents
 
 ==========
 14.  Type:
@@ -139,7 +169,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -149,7 +179,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -157,4 +187,4 @@ Copy and paste the output below.
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
-----------
+ls is command, -a is flag, Desktop is argument, prompt is the list of destop folder
